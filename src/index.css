@@ -59,3 +59,14 @@ code {
 .container h1 {
   color: rgb(87, 98, 255);
 }
+
+.container > select {
+    width: 100%;
+    max-width: 100px;
+    height: 38px;
+    border: 1px solid #dddddd;
+    border-radius: 7px;
+    color: #333;
+    font-size: 15px;
+
+}
