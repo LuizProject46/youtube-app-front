@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="container" >
-      <h1>Youtube Donwloader</h1>
+      <h1>Youtube Downloader</h1>
         <input value={url} onChange={ e => setUrl(e.target.value)} placeholder="Digite a url do video..."/>
           <select onChange={ e => setFormat(e.target.value)}>
             <option value="mp3">MP3</option>
